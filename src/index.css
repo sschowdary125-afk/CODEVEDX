@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #f5f6f8;
+  --text-color: #1f2937;
+  --muted-color: #6b7280;
+  --surface-color: #ffffff;
+  --border-color: #e5e7eb;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.dark {
+  --bg-color: #181a1f;
+  --text-color: #f3f4f6;
+  --muted-color: #9ca3af;
+  --surface-color: #22252b;
+  --border-color: #343841;
+}
